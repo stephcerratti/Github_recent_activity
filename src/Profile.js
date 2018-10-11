@@ -11,7 +11,7 @@ const Profile = props => {
         src={props.avatar_url}
         alt={`photo of ${props.login}`}
       />
-
+      <RecentActivity />
       <Button value="Log Out" handleClick={props.handleLogOut} />
     </div>
   );
